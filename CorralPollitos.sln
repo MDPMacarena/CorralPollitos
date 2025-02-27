@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorralPollitos", "CorralPollitos\CorralPollitos.csproj", "{7644232A-991D-42E6-8A17-B61F88CC4131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServidorCorral", "ServidorCorral\ServidorCorral.csproj", "{6FC187E6-29AA-4304-A3D3-2F2F90D57F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientePollito", "ClientePollito\ClientePollito.csproj", "{354B8546-A914-492D-B8F3-3FAFB3518D94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7644232A-991D-42E6-8A17-B61F88CC4131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7644232A-991D-42E6-8A17-B61F88CC4131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7644232A-991D-42E6-8A17-B61F88CC4131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7644232A-991D-42E6-8A17-B61F88CC4131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC187E6-29AA-4304-A3D3-2F2F90D57F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC187E6-29AA-4304-A3D3-2F2F90D57F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC187E6-29AA-4304-A3D3-2F2F90D57F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC187E6-29AA-4304-A3D3-2F2F90D57F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354B8546-A914-492D-B8F3-3FAFB3518D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354B8546-A914-492D-B8F3-3FAFB3518D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354B8546-A914-492D-B8F3-3FAFB3518D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354B8546-A914-492D-B8F3-3FAFB3518D94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
