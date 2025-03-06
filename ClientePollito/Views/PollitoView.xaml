@@ -47,6 +47,8 @@
                Margin="0 20 0 0"
                HorizontalAlignment="Center" 
                Text="Solo puedes escoger entre estos tres pollitos 🐥​🐤​🐣​ "/>
+        <Label Content="Dirección IP del servidor:"/>
+        <TextBox/>
         <WrapPanel Margin="30" 
                HorizontalAlignment="Center">
             <WrapPanel.Resources>

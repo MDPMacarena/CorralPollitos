@@ -52,9 +52,6 @@
             </WrapPanel>
         </StackPanel>
         <UniformGrid Rows="5" Columns="5" Margin="0,20,0,20">
-            <!--<UniformGrid.Background>
-             <ImageBrush ImageSource="imag/pastodos.png" Stretch="Fill" AlignmentY="Bottom"/>
-         </UniformGrid.Background>-->
             <UniformGrid.Resources>
                 <Style TargetType="TextBlock">
                     <Setter Property="FontSize" Value="20"/>
