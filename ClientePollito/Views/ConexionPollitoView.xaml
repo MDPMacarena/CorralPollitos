@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="ClientePollito.Views.PollitoView"
+﻿<UserControl x:Class="ClientePollito.Views.ConexionPollitoView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -49,17 +49,17 @@
         <TextBox Name="txtNombre" Text="{Binding ConexionCorralModel.Nombre}"/>
         <Label Content="Pollito:"/>
         <ComboBox  ItemsSource="{Binding Pollito}" 
-       SelectedItem="{Binding ConexionCorralModel.Pollito}">
+          SelectedItem="{Binding ConexionCorralModel.Pollito}">
         </ComboBox>
         <Label Content="Dirección IP del servidor:"/>
         <TextBox/>
         <TextBlock FontSize="12"  
-                Margin="0 20 0 0"
-                HorizontalAlignment="Center"
-                Foreground="Red"
-                Text="{Binding Error}"/>
+                   Margin="0 20 0 0"
+                   HorizontalAlignment="Center"
+                   Foreground="Red"
+                   Text="{Binding Error}"/>
         <WrapPanel Margin="30" 
-          HorizontalAlignment="Center">
+             HorizontalAlignment="Center">
             <WrapPanel.Resources>
                 <Style TargetType="Button">
                     <Setter Property="HorizontalContentAlignment" Value="Center"/>
